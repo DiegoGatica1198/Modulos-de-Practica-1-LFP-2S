@@ -1,0 +1,12 @@
+digraph prueba {
+	rankdir=LR size=8
+	node [shape=doublecircle]
+	x5 [label=x5]
+	node [shape=circle]
+	x1 -> x2 [label=salida]
+	x2 -> x3 [label=salida]
+	x3 -> x3 [label=salida]
+	x3 -> x4 [label=salida]
+	x3 -> x5 [label=salida]
+	x5 -> x4 [label=salida]
+}
