@@ -1,11 +1,9 @@
-EP=[]
-
 class ValuarPrefijo:
     def __init__(self):
         placeholder=1
     def ejecutar(self,arreglo):
         if len(arreglo)==3:
-            print("esta esta paja")
+            
             if arreglo[0]=="+":
                 x=float(arreglo[1])+float(arreglo[2])
                 return x
@@ -19,7 +17,7 @@ class ValuarPrefijo:
                 x=float(arreglo[1])/float(arreglo[2])
                 return x
         else:
-            print("esta pisada hommie")
+            
             Largo = len(arreglo)
             contador = 0
             valorDeRemplazo=0

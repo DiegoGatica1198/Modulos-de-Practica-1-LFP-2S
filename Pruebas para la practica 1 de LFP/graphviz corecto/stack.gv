@@ -1,0 +1,9 @@
+digraph stack {
+	rankdir=TB size=8
+	node [shape=plaintext]
+	p0 [label=<<table><tr><td>   </td></tr><tr><td>3</td></tr><tr><td>2</td></tr></table>>]
+	p1 [label=<<table><tr><td>+</td></tr><tr><td>2</td></tr><tr><td>3</td></tr></table>>]
+	p2 [label=<<table><tr><td>+</td></tr><tr><td>2</td></tr><tr><td>3</td></tr></table>>]
+	p3 [label=<<table><tr><td>+</td></tr><tr><td>2</td></tr><tr><td>3</td></tr></table>>]
+	p4 [label=<<table><tr><td>+</td></tr><tr><td>2</td></tr><tr><td>3</td></tr></table>>]
+}
